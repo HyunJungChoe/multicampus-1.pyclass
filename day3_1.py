@@ -80,3 +80,18 @@ print(f'txt1 = {txt1} type={type(txt1)}')
 result = dict(enumerate(txt1))
 print(f'result = {result} type={type(result)}')
 
+# 딕셔너리 리스트
+# 리스트안에 딕셔너리가 있는 구조
+dictList = [{'a':'apple', 'v':'victory'},
+            {100:'백', 200:'이백'},
+            {'user1':'김철수', 'user2':'고소영'}]
+print(dictList, type(dictList), len(dictList))
+# [{'a': 'apple', 'v': 'victory'}, {100: '백', 200: '이백'}, {'user1': '김철수', 'user2': '고소영'}] <class 'list'> 3
+
+# 딕셔너리 리스트 인덱싱
+# 딕셔너리리스트명[위치인덱스][키]
+print(dictList[0], type(dictList[0]))
+# {'a': 'apple', 'v': 'victory'} <class 'dict'>
+print(dictList[0]['a'], type(dictList[0]['a']))
+# print(dictList[0][0], type(dictList[0][0]))
+# KeyError: 0
