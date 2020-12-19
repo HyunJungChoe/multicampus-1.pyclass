@@ -1,0 +1,20 @@
+<books>
+<book>
+<author>Carson</author>
+<price format="dallor">31.95</price>
+<pubdate>05/01/2001</pubdate>
+<pubinfo>
+    <publisher>MSPress</publisher>
+    <state>MA</state>
+</pubinfo>
+</book>
+<book>
+<author>Lala</author>
+<price format="dallor">100.95</price>
+<pubdate>07/01/2017</pubdate>
+<pubinfo>
+    <publisher>KoraPress</publisher>
+    <state>Seoul</state>
+</pubinfo>
+</book>
+</books>
